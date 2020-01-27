@@ -21,8 +21,8 @@ jobs:
       SonarQube: 'Peach'
       scannerMode: 'CLI'
       configMode: 'manual'
-      cliProjectKey: 'geoffray-azure-cmake-linux-test'
-      cliProjectName: 'geoffray-azure-cmake-linux-test'
+      cliProjectKey: 'geoffray-azure-cmake-macosx-test'
+      cliProjectName: 'geoffray-azure-cmake-macosx-test'
       cliSources: 'src'
       extraProperties: 'sonar.cfamily.build-wrapper-output=build_wrapper_output_directory'
   - bash: |
@@ -55,8 +55,8 @@ jobs:
       organization: 'geoffray-adde-sonarsource-github'
       scannerMode: 'CLI'
       configMode: 'manual'
-      cliProjectKey: 'geoffray-azure-cmake-linux-test'
-      cliProjectName: 'geoffray-azure-cmake-linux-test'
+      cliProjectKey: 'geoffray-azure-cmake-macosx-test'
+      cliProjectName: 'geoffray-azure-cmake-macosx-test'
       cliSources: 'src'
       extraProperties: 'sonar.cfamily.build-wrapper-output=build_wrapper_output_directory'
   - bash: |
